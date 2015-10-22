@@ -226,3 +226,7 @@ RefactoringAction 1445509898736 TestPlanetExplorer.java ADD void testCommandwiht
 RefactoringAction 1445509904745 TestPlanetExplorer.java RENAME testCommandwihtObstaclesWhenOneIsFound()/2=>void testCommandwihtObstaclesWhenTwoIsFound() METHOD
 EditAction 1445509951505 TestPlanetExplorer.java 1361 4 11 4
 EditAction 1445509973482 TestPlanetExplorer.java 1369 4 11 4
+UnitTestCaseAction 1445509975724 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445509975724 TestPlanetExplorer FAIL
+RefactoringAction 1445509994444 TestPlanetExplorer.java REMOVE testCommandwihtObstaclesWhenTwoIsFound() METHOD
+EditAction 1445509996042 TestPlanetExplorer.java 1023 3 8 3
