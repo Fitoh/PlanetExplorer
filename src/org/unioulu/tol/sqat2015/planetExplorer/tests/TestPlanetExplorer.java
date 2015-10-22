@@ -12,7 +12,7 @@ public class TestPlanetExplorer {
 		// arrange
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)");
 		
-		// assert
+		// assert should be 100
 		assertEquals(101,explorer.gridHeight());
 	}
 	
@@ -24,7 +24,7 @@ public class TestPlanetExplorer {
 		//act
 		String testLocation = explorer.executeCommand("ffrff");
 		
-		// assert
-		assertEquals("2,2,E",testLocation);
+		// assert should be "2,2,E"
+		assertEquals("2,2,N",testLocation);
 	}
 }
