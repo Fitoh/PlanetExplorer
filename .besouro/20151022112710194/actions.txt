@@ -39,3 +39,4 @@ RefactoringAction 1445504206023 PlanetExplorer.java RENAME xlocation(int, int)=>
 RefactoringAction 1445504251682 PlanetExplorer.java ADD int xlocation()/2 METHOD
 RefactoringAction 1445504254197 PlanetExplorer.java RENAME xlocation()/2=>int ylocation() METHOD
 EditAction 1445504258023 PlanetExplorer.java 1563 4 5 0
+EditAction 1445504313414 TestPlanetExplorer.java 611 2 2 1
