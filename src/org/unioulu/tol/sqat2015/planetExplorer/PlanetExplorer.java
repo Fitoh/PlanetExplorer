@@ -100,7 +100,6 @@ public class PlanetExplorer {
 		}
 		
 		commandReturn = Integer.toString(xLocation);
-		System.out.print("oma" + xLocation);
 		return commandReturn;
 	}
 }
