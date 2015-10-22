@@ -44,7 +44,7 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 	
-		for (int i = 0; i < command.length(); i++) {
+		for (int i = 0; i <= command.length(); i++) {
 			
 			if (facing == 'N' && command.charAt(i) == 'f'){
 				yLocation = yLocation + 1;

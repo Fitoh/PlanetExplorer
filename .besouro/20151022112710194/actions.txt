@@ -60,3 +60,10 @@ RefactoringAction 1445505795554 PlanetExplorer.java RENAME direction=>char facin
 EditAction 1445506141990 PlanetExplorer.java 3006 4 6 0
 RefactoringAction 1445506192674 PlanetExplorer.java ADD String commandReturn FIELD
 EditAction 1445506757838 PlanetExplorer.java 3093 4 7 0
+UnitTestCaseAction 1445506767093 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445506767093 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445506784738 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445506784739 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445506864273 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445506864273 TestPlanetExplorer FAIL
+EditAction 1445506952399 PlanetExplorer.java 3094 4 7 0
