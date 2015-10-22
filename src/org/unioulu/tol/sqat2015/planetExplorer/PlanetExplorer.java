@@ -12,6 +12,7 @@ public class PlanetExplorer {
 	private int gridHeight = 0;
 	private char facing = 'N';
 	private String commandReturn;
+	private String obstacleList;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	
@@ -23,6 +24,7 @@ public class PlanetExplorer {
 	 */
 		gridWidth = x;
 		gridHeight = y;
+		obstacleList = obstacles;
 
 	}
 	
