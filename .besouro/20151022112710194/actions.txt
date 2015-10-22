@@ -14,3 +14,28 @@ RefactoringAction 1445503242020 TestPlanetExplorer.java REMOVE import org.unioul
 RefactoringAction 1445503246033 TestPlanetExplorer.java REMOVE explorer FIELD
 RefactoringAction 1445503256073 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.* IMPORT
 EditAction 1445503261019 TestPlanetExplorer.java 336 1 1 0
+UnitTestCaseAction 1445503478344 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445503478346 TestPlanetExplorer OK
+RefactoringAction 1445503507656 TestPlanetExplorer.java ADD void testCreatePlanetExplorer()/2 METHOD
+RefactoringAction 1445503516174 TestPlanetExplorer.java RENAME testCreatePlanetExplorer()/2=>void test() METHOD
+RefactoringAction 1445503522968 TestPlanetExplorer.java RENAME test()=>void testCommand() METHOD
+RefactoringAction 1445503539498 TestPlanetExplorer.java RENAME testCreatePlanetExplorer()=>void tCreatePlanetExplorer() METHOD
+RefactoringAction 1445503541013 TestPlanetExplorer.java RENAME tCreatePlanetExplorer()=>void CreatePlanetExplorer() METHOD
+RefactoringAction 1445503580623 TestPlanetExplorer.java RENAME CreatePlanetExplorer()=>void createPlanetExplorer() METHOD
+RefactoringAction 1445504021987 PlanetExplorer.java ADD String location() METHOD
+RefactoringAction 1445504064796 TestPlanetExplorer.java RENAME createPlanetExplorer()=>void TreatePlanetExplorer() METHOD
+RefactoringAction 1445504065808 TestPlanetExplorer.java RENAME TreatePlanetExplorer()=>void reatePlanetExplorer() METHOD
+RefactoringAction 1445504067323 TestPlanetExplorer.java RENAME reatePlanetExplorer()=>void testCreatePlanetExplorer() METHOD
+RefactoringAction 1445504074859 TestPlanetExplorer.java ADD void testCommand()/2 METHOD
+RefactoringAction 1445504078878 TestPlanetExplorer.java RENAME testCommand()/2=>void testComma() METHOD
+RefactoringAction 1445504085898 TestPlanetExplorer.java REMOVE testComma() METHOD
+RefactoringAction 1445504136272 PlanetExplorer.java RENAME location()=>String location(int) METHOD
+RefactoringAction 1445504139787 PlanetExplorer.java RENAME location(int)=>String location(int, int) METHOD
+RefactoringAction 1445504154324 PlanetExplorer.java ADD int xLocation FIELD
+RefactoringAction 1445504163875 PlanetExplorer.java ADD int xLocation/2 FIELD
+RefactoringAction 1445504166890 PlanetExplorer.java RENAME xLocation/2=>int yLocation FIELD
+RefactoringAction 1445504187493 PlanetExplorer.java RENAME location(int, int)=>String xlocation(int, int) METHOD
+RefactoringAction 1445504206023 PlanetExplorer.java RENAME xlocation(int, int)=>int xlocation() METHOD
+RefactoringAction 1445504251682 PlanetExplorer.java ADD int xlocation()/2 METHOD
+RefactoringAction 1445504254197 PlanetExplorer.java RENAME xlocation()/2=>int ylocation() METHOD
+EditAction 1445504258023 PlanetExplorer.java 1563 4 5 0
