@@ -8,6 +8,8 @@ public class PlanetExplorer {
 	
 	private int xLocation = 0;
 	private int yLocation = 0;
+	private int gridWidth = 0;
+	private int gridHeight = 0;
 	private char facing = 'N';
 	private String commandReturn;
 	
@@ -19,17 +21,17 @@ public class PlanetExplorer {
 		Example use:
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
-		
-		xLocation = x;
-		xLocation = y;
+		gridWidth = x;
+		gridHeight = y;
+
 	}
 	
-	public int xlocation(){
-		return xLocation;
+	public int gridWidth(){
+		return gridWidth;
 	}
 	
-	public int ylocation(){
-		return yLocation;
+	public int gridHeight(){
+		return gridHeight;
 	}
 	
 	public String executeCommand(String command){

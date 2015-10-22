@@ -92,3 +92,23 @@ UnitTestSessionAction 1445507470821 TestPlanetExplorer FAIL
 EditAction 1445507492995 TestPlanetExplorer.java 671 2 5 2
 CompilationAction 1445507493105 TestPlanetExplorer.java
 EditAction 1445507506075 PlanetExplorer.java 3093 4 7 0
+UnitTestCaseAction 1445507507951 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445507507952 TestPlanetExplorer FAIL
+RefactoringAction 1445507598147 PlanetExplorer.java RENAME xlocation()=>int gridxlocation() METHOD
+RefactoringAction 1445507601169 PlanetExplorer.java RENAME gridxlocation()=>int gridXLocation() METHOD
+RefactoringAction 1445507606189 PlanetExplorer.java RENAME gridXLocation()=>int gridXocation() METHOD
+RefactoringAction 1445507609711 PlanetExplorer.java RENAME gridXocation()=>int gridX() METHOD
+RefactoringAction 1445507612730 PlanetExplorer.java RENAME gridX()=>int grid() METHOD
+RefactoringAction 1445507616750 PlanetExplorer.java RENAME grid()=>int gridWid() METHOD
+RefactoringAction 1445507618271 PlanetExplorer.java RENAME gridWid()=>int gridWidth() METHOD
+RefactoringAction 1445507622786 PlanetExplorer.java RENAME ylocation()=>int g() METHOD
+RefactoringAction 1445507623803 PlanetExplorer.java RENAME g()=>int grid() METHOD
+RefactoringAction 1445507625823 PlanetExplorer.java RENAME grid()=>int gridHigh() METHOD
+RefactoringAction 1445507626843 PlanetExplorer.java RENAME gridHigh()=>int gridHight() METHOD
+RefactoringAction 1445507628862 PlanetExplorer.java RENAME gridHight()=>int gridHeight() METHOD
+RefactoringAction 1445507648399 PlanetExplorer.java ADD int xLocation/2 FIELD
+RefactoringAction 1445507648400 PlanetExplorer.java ADD int yLocation/2 FIELD
+RefactoringAction 1445507655917 PlanetExplorer.java RENAME xLocation/2=>int gridWidth FIELD
+RefactoringAction 1445507658934 PlanetExplorer.java RENAME yLocation/2=>int gridWidth/2 FIELD
+RefactoringAction 1445507663454 PlanetExplorer.java RENAME gridWidth/2=>int gridHeight FIELD
+EditAction 1445507705738 PlanetExplorer.java 3153 4 7 0
