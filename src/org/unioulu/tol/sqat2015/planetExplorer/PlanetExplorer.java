@@ -6,8 +6,8 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 
 public class PlanetExplorer {
 	
-	private int xLocation;
-	private int yLocation;
+	private int xLocation = 0;
+	private int yLocation = 0;
 	private int gridWidth = 0;
 	private int gridHeight = 0;
 	private char facing = 'N';
