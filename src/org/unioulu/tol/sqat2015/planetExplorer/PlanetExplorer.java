@@ -6,8 +6,8 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 
 public class PlanetExplorer {
 	
-	private int xLocation = 0;
-	private int yLocation = 0;
+	private int xLocation;
+	private int yLocation;
 	private int gridWidth = 0;
 	private int gridHeight = 0;
 	private char facing = 'N';
@@ -45,7 +45,7 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
-	
+		
 		for (int i = 0; i < command.length(); i++) {
 			
 			if (facing == 'N' && command.charAt(i) == 'f'){

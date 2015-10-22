@@ -13,7 +13,7 @@ public class TestPlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)");
 		
 		// assert
-		assertEquals(101,explorer.xlocation());
+		assertEquals(101,explorer.gridHeight());
 	}
 	
 	@Test

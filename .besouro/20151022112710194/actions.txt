@@ -112,3 +112,8 @@ RefactoringAction 1445507655917 PlanetExplorer.java RENAME xLocation/2=>int grid
 RefactoringAction 1445507658934 PlanetExplorer.java RENAME yLocation/2=>int gridWidth/2 FIELD
 RefactoringAction 1445507663454 PlanetExplorer.java RENAME gridWidth/2=>int gridHeight FIELD
 EditAction 1445507705738 PlanetExplorer.java 3153 4 7 0
+CompilationAction 1445507706787 TestPlanetExplorer.java
+CompilationAction 1445507736852 TestPlanetExplorer.java
+UnitTestCaseAction 1445507742068 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445507742069 TestPlanetExplorer FAIL
+EditAction 1445507857054 PlanetExplorer.java 3146 4 7 0
