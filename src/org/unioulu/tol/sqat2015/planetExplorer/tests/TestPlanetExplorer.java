@@ -20,8 +20,11 @@ public class TestPlanetExplorer {
 	public void testCommand() {
 		// arrange
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)");
-
-		// act & assert
-		assertEquals("2,2,E",explorer.executeCommand("ffrff"));
+		
+		//act
+		String testLocation = explorer.executeCommand("ffrff");
+		
+		// assert
+		assertEquals("2,2,E",testLocation);
 	}
 }
