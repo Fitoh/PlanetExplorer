@@ -47,7 +47,7 @@ public class TestPlanetExplorer {
 		
 		//act
 		//finds first
-		String testLocation = explorer.executeCommand("fffffrfffff");
+		String testLocation = explorer.executeCommand("fffffrffffflffrffff");
 		
 		// assert should be "(5,4,E)(5,5)(7,8)"
 		assertEquals("5,4,N",testLocation);
