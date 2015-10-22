@@ -37,7 +37,7 @@ public class TestPlanetExplorer {
 		String testLocation = explorer.executeCommand("fffffrfffff");
 		
 		// assert should be "5,4,E"
-		assertEquals("5,4,N",testLocation);
+		assertEquals("5,4,E",testLocation);
 	}
 	
 }
