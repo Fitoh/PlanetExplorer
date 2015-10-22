@@ -53,8 +53,16 @@ public class PlanetExplorer {
 			
 			if (facing == 'N' && command.charAt(i) == 'f'){
 				yLocation = yLocation + 1;
+				if (obstacleList.contains(Integer.toString(xLocation) + "," + Integer.toString(xLocation))){
+					knownObstacles = "(" + knownObstacles + Integer.toString(xLocation) + "," + Integer.toString(yLocation) + ")";
+					yLocation = yLocation - 1;
+				}
 			}else if (facing == 'N' && command.charAt(i) == 'd'){
 				yLocation = yLocation - 1;
+				if (obstacleList.contains(Integer.toString(xLocation) + "," + Integer.toString(xLocation))){
+					knownObstacles = "(" + knownObstacles + Integer.toString(xLocation) + "," + Integer.toString(yLocation) + ")";
+					yLocation = yLocation + 1;
+				}
 			}else if (facing == 'N' && command.charAt(i) == 'l'){
 				facing = 'W';
 			}else if (facing == 'N' && command.charAt(i) == 'r'){
@@ -63,8 +71,16 @@ public class PlanetExplorer {
 			
 			else if (facing == 'S' && command.charAt(i) == 'f'){
 				yLocation = yLocation - 1;
+				if (obstacleList.contains(Integer.toString(xLocation) + "," + Integer.toString(xLocation))){
+					knownObstacles = "(" + knownObstacles + Integer.toString(xLocation) + "," + Integer.toString(yLocation) + ")";
+					yLocation = yLocation + 1;
+				}
 			}else if (facing == 'S' && command.charAt(i) == 'd'){
 				yLocation = yLocation + 1;
+				if (obstacleList.contains(Integer.toString(xLocation) + "," + Integer.toString(xLocation))){
+					knownObstacles = "(" + knownObstacles + Integer.toString(xLocation) + "," + Integer.toString(yLocation) + ")";
+					yLocation = yLocation - 1;
+				}
 			}else if (facing == 'S' && command.charAt(i) == 'l'){
 				facing = 'E';
 			}else if (facing == 'S' && command.charAt(i) == 'r'){
@@ -73,8 +89,16 @@ public class PlanetExplorer {
 			
 			else if (facing == 'W' && command.charAt(i) == 'f'){
 				xLocation = xLocation - 1;
+				if (obstacleList.contains(Integer.toString(xLocation) + "," + Integer.toString(xLocation))){
+					knownObstacles = "(" + knownObstacles + Integer.toString(xLocation) + "," + Integer.toString(yLocation) + ")";
+					xLocation = xLocation + 1;
+				}
 			}else if (facing == 'W' && command.charAt(i) == 'd'){
 				xLocation = xLocation + 1;
+				if (obstacleList.contains(Integer.toString(xLocation) + "," + Integer.toString(xLocation))){
+					knownObstacles = "(" + knownObstacles + Integer.toString(xLocation) + "," + Integer.toString(yLocation) + ")";
+					xLocation = xLocation - 1;
+				}
 			}else if (facing == 'W' && command.charAt(i) == 'l'){
 				facing = 'S';
 			}else if (facing == 'W' && command.charAt(i) == 'r'){
@@ -89,6 +113,10 @@ public class PlanetExplorer {
 				}
 			}else if (facing == 'E' && command.charAt(i) == 'd'){
 				xLocation = xLocation - 1;
+				if (obstacleList.contains(Integer.toString(xLocation) + "," + Integer.toString(xLocation))){
+					knownObstacles = "(" + knownObstacles + Integer.toString(xLocation) + "," + Integer.toString(yLocation) + ")";
+					xLocation = xLocation + 1;
+				}
 			}else if (facing == 'E' && command.charAt(i) == 'l'){
 				facing = 'N';
 			}else if (facing == 'E' && command.charAt(i) == 'r'){
