@@ -84,7 +84,8 @@ public class PlanetExplorer {
 			else if (facing == 'E' && command.charAt(i) == 'f'){
 				xLocation = xLocation + 1;
 				if (obstacleList.contains(Integer.toString(xLocation) + "+" + Integer.toString(xLocation))){
-					
+					knownObstacles = knownObstacles + Integer.toString(xLocation) + Integer.toString(yLocation);
+					xLocation = xLocation - 1;
 				}
 			}else if (facing == 'E' && command.charAt(i) == 'd'){
 				xLocation = xLocation - 1;
