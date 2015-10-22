@@ -89,7 +89,7 @@ public class PlanetExplorer {
 			}
 		}
 		
-		commandReturn = Integer.toString(xLocation) + "ff";
+		commandReturn = Integer.toString(xLocation) + "," + Integer.toString(yLocation);
 		return commandReturn;
 	}
 }
