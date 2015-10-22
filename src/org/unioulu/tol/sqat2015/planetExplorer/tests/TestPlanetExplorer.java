@@ -6,23 +6,22 @@ import org.junit.Test;
 
 public class TestPlanetExplorer {
 
+	
 	@Test
 	public void testCreatePlanetExplorer() {
-		// act
+		// arrange
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)");
 		
 		// assert
 		assertEquals(101,explorer.xlocation());
 	}
 	
-	
 	@Test
 	public void testCommand() {
-		// act
-		createPlanetExplorer();
-				
-		// assert
-		assertEquals(6,explorer.);
+		// arrange
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)");
+
+		// act & assert
+		assertEquals("2,2,E",explorer.executeCommand("ffrff"));
 	}
 }

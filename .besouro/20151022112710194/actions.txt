@@ -46,3 +46,15 @@ CompilationAction 1445504313698 TestPlanetExplorer.java
 UnitTestCaseAction 1445504321299 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445504321299 TestPlanetExplorer FAIL
 EditAction 1445504328691 TestPlanetExplorer.java 611 2 2 1
+CompilationAction 1445504328948 TestPlanetExplorer.java
+CompilationAction 1445504328948 TestPlanetExplorer.java
+CompilationAction 1445504328949 TestPlanetExplorer.java
+UnitTestCaseAction 1445504332213 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445504332214 TestPlanetExplorer FAIL
+RefactoringAction 1445504609454 TestPlanetExplorer.java ADD void command() METHOD
+RefactoringAction 1445504639487 TestPlanetExplorer.java REMOVE command() METHOD
+CompilationAction 1445504843047 TestPlanetExplorer.java
+RefactoringAction 1445505179658 PlanetExplorer.java ADD char facing FIELD
+RefactoringAction 1445505373593 PlanetExplorer.java RENAME facing=>char direction FIELD
+RefactoringAction 1445505795554 PlanetExplorer.java RENAME direction=>char facing FIELD
+EditAction 1445506141990 PlanetExplorer.java 3006 4 6 0

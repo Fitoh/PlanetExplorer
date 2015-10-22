@@ -8,6 +8,7 @@ public class PlanetExplorer {
 	
 	private int xLocation = 0;
 	private int yLocation = 0;
+	private char facing = 'N';
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	
@@ -41,7 +42,62 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
-		
+	
+		for (int i = 0; i < command.length(); i++) {
+			
+			if (facing == 'N' && command.charAt(i) == 'f'){
+				yLocation = yLocation + 1;
+			}
+			if (facing == 'N' && command.charAt(i) == 'd'){
+				yLocation = yLocation - 1;
+			}
+			if (facing == 'N' && command.charAt(i) == 'l'){
+				facing = 'W';
+			}
+			if (facing == 'N' && command.charAt(i) == 'r'){
+				facing = 'E';
+			}
+			
+			if (facing == 'S' && command.charAt(i) == 'f'){
+				yLocation = yLocation - 1;
+			}
+			if (facing == 'S' && command.charAt(i) == 'd'){
+				yLocation = yLocation + 1;
+			}
+			if (facing == 'S' && command.charAt(i) == 'l'){
+				facing = 'E';
+			}
+			if (facing == 'S' && command.charAt(i) == 'r'){
+				facing = 'W';
+			}
+			
+			if (facing == 'W' && command.charAt(i) == 'f'){
+				xLocation = xLocation - 1;
+			}
+			if (facing == 'W' && command.charAt(i) == 'd'){
+				xLocation = xLocation + 1;
+			}
+			if (facing == 'W' && command.charAt(i) == 'l'){
+				facing = 'S';
+			}
+			if (facing == 'W' && command.charAt(i) == 'r'){
+				facing = 'N';
+			}
+			
+			if (facing == 'E' && command.charAt(i) == 'f'){
+				xLocation = xLocation + 1;
+			}
+			if (facing == 'E' && command.charAt(i) == 'd'){
+				xLocation = xLocation - 1;
+			}
+			if (facing == 'E' && command.charAt(i) == 'l'){
+				facing = 'N';
+			}
+			if (facing == 'E' && command.charAt(i) == 'r'){
+				facing = 'S';
+			}
+		}
+				
 		return null;
 	}
 }
