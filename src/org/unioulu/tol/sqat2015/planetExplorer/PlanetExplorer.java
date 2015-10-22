@@ -13,6 +13,7 @@ public class PlanetExplorer {
 	private char facing = 'N';
 	private String commandReturn;
 	private String obstacleList;
+	private String knownObstacles;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	
@@ -82,6 +83,9 @@ public class PlanetExplorer {
 			
 			else if (facing == 'E' && command.charAt(i) == 'f'){
 				xLocation = xLocation + 1;
+				if (obstacleList.contains(Integer.toString(xLocation) + "+" + Integer.toString(xLocation))){
+					
+				}
 			}else if (facing == 'E' && command.charAt(i) == 'd'){
 				xLocation = xLocation - 1;
 			}else if (facing == 'E' && command.charAt(i) == 'l'){
@@ -91,7 +95,7 @@ public class PlanetExplorer {
 			}
 		}
 		
-		commandReturn = Integer.toString(xLocation) + "," + Integer.toString(yLocation) + "," + facing;
+		commandReturn = Integer.toString(xLocation) + "," + Integer.toString(yLocation) + "," + facing + knowObstacles;
 		return commandReturn;
 	}
 }

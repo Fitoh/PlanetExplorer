@@ -173,3 +173,6 @@ RefactoringAction 1445508812404 PlanetExplorer.java ADD String obstacles FIELD
 RefactoringAction 1445508814425 PlanetExplorer.java RENAME obstacles=>String obstacl FIELD
 RefactoringAction 1445508815941 PlanetExplorer.java RENAME obstacl=>String obstacleList FIELD
 EditAction 1445508841794 PlanetExplorer.java 3280 4 8 0
+RefactoringAction 1445509160774 PlanetExplorer.java ADD String known FIELD
+RefactoringAction 1445509163793 PlanetExplorer.java RENAME known=>String knownObstacles FIELD
+EditAction 1445509180373 PlanetExplorer.java 3441 4 8 0
