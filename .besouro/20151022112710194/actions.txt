@@ -154,3 +154,9 @@ EditAction 1445508404232 TestPlanetExplorer.java 710 2 5 2
 UnitTestCaseAction 1445508405996 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445508405996 TestPlanetExplorer FAIL
 EditAction 1445508414551 TestPlanetExplorer.java 707 2 5 2
+RefactoringAction 1445508425903 TestPlanetExplorer.java ADD void testCommand()/2 METHOD
+RefactoringAction 1445508430418 TestPlanetExplorer.java RENAME testCommand()/2=>void testComm() METHOD
+RefactoringAction 1445508432431 TestPlanetExplorer.java RENAME testComm()=>void testCommand()/2 METHOD
+RefactoringAction 1445508434947 TestPlanetExplorer.java RENAME testCommand()/2=>void testCommandwiht() METHOD
+RefactoringAction 1445508439463 TestPlanetExplorer.java RENAME testCommandwiht()=>void testCommandwihtObstacles() METHOD
+EditAction 1445508532301 TestPlanetExplorer.java 1002 3 8 3

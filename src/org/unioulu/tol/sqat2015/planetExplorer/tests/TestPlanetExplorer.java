@@ -28,4 +28,16 @@ public class TestPlanetExplorer {
 		assertEquals("2,2,N",testLocation);
 	}
 	
+	@Test
+	public void testCommandwihtObstacles() {
+		// arrange
+		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)");
+		
+		//act
+		String testLocation = explorer.executeCommand("fffffrfffff");
+		
+		// assert should be "5,4,E"
+		assertEquals("5,4,N",testLocation);
+	}
+	
 }
