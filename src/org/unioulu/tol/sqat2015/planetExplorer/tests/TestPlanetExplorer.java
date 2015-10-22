@@ -25,6 +25,6 @@ public class TestPlanetExplorer {
 		String testLocation = explorer.executeCommand("f");
 		
 		// assert
-		assertEquals("2,2,E",testLocation);
+		assertEquals(2,testLocation);
 	}
 }
