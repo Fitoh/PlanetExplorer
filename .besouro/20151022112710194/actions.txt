@@ -176,3 +176,6 @@ EditAction 1445508841794 PlanetExplorer.java 3280 4 8 0
 RefactoringAction 1445509160774 PlanetExplorer.java ADD String known FIELD
 RefactoringAction 1445509163793 PlanetExplorer.java RENAME known=>String knownObstacles FIELD
 EditAction 1445509180373 PlanetExplorer.java 3441 4 8 0
+CompilationAction 1445509180665 PlanetExplorer.java
+CompilationAction 1445509189330 PlanetExplorer.java
+EditAction 1445509232354 PlanetExplorer.java 3442 4 8 0

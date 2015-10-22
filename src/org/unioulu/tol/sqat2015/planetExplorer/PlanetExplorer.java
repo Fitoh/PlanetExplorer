@@ -95,7 +95,7 @@ public class PlanetExplorer {
 			}
 		}
 		
-		commandReturn = Integer.toString(xLocation) + "," + Integer.toString(yLocation) + "," + facing + knowObstacles;
+		commandReturn = Integer.toString(xLocation) + "," + Integer.toString(yLocation) + "," + facing + knownObstacles;
 		return commandReturn;
 	}
 }
