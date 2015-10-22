@@ -32,7 +32,7 @@ public class PlanetExplorer {
 		return yLocation;
 	}
 	
-	public int executeCommand(String command){
+	public String executeCommand(String command){
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
@@ -100,6 +100,6 @@ public class PlanetExplorer {
 		}
 		
 		commandReturn = Integer.toString(xLocation);
-		return xLocation;
+		return commandReturn;
 	}
 }
