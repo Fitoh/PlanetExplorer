@@ -58,3 +58,5 @@ RefactoringAction 1445505179658 PlanetExplorer.java ADD char facing FIELD
 RefactoringAction 1445505373593 PlanetExplorer.java RENAME facing=>char direction FIELD
 RefactoringAction 1445505795554 PlanetExplorer.java RENAME direction=>char facing FIELD
 EditAction 1445506141990 PlanetExplorer.java 3006 4 6 0
+RefactoringAction 1445506192674 PlanetExplorer.java ADD String commandReturn FIELD
+EditAction 1445506757838 PlanetExplorer.java 3093 4 7 0

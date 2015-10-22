@@ -9,6 +9,7 @@ public class PlanetExplorer {
 	private int xLocation = 0;
 	private int yLocation = 0;
 	private char facing = 'N';
+	private String commandReturn;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	
@@ -97,7 +98,8 @@ public class PlanetExplorer {
 				facing = 'S';
 			}
 		}
-				
-		return null;
+		
+		commandReturn = Integer.toString(xLocation);
+		return commandReturn;
 	}
 }
