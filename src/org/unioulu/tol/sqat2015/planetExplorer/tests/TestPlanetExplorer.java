@@ -22,9 +22,10 @@ public class TestPlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)");
 		
 		//act
-		String testLocation = explorer.executeCommand("ffrff");
+		String testLocation = explorer.executeCommand("ffrffrff");
 		
 		// assert should be "2,2,E"
 		assertEquals("2,2,N",testLocation);
 	}
+	
 }
