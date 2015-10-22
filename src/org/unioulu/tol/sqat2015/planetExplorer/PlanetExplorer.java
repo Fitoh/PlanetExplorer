@@ -50,53 +50,41 @@ public class PlanetExplorer {
 			
 			if (facing == 'N' && command.charAt(i) == 'f'){
 				yLocation = yLocation + 1;
-			}
-			if (facing == 'N' && command.charAt(i) == 'd'){
+			}else if (facing == 'N' && command.charAt(i) == 'd'){
 				yLocation = yLocation - 1;
-			}
-			if (facing == 'N' && command.charAt(i) == 'l'){
+			}else if (facing == 'N' && command.charAt(i) == 'l'){
 				facing = 'W';
-			}
-			if (facing == 'N' && command.charAt(i) == 'r'){
+			}else if (facing == 'N' && command.charAt(i) == 'r'){
 				facing = 'E';
 			}
 			
-			if (facing == 'S' && command.charAt(i) == 'f'){
+			else if (facing == 'S' && command.charAt(i) == 'f'){
 				yLocation = yLocation - 1;
-			}
-			if (facing == 'S' && command.charAt(i) == 'd'){
+			}else if (facing == 'S' && command.charAt(i) == 'd'){
 				yLocation = yLocation + 1;
-			}
-			if (facing == 'S' && command.charAt(i) == 'l'){
+			}else if (facing == 'S' && command.charAt(i) == 'l'){
 				facing = 'E';
-			}
-			if (facing == 'S' && command.charAt(i) == 'r'){
+			}else if (facing == 'S' && command.charAt(i) == 'r'){
 				facing = 'W';
 			}
 			
-			if (facing == 'W' && command.charAt(i) == 'f'){
+			else if (facing == 'W' && command.charAt(i) == 'f'){
 				xLocation = xLocation - 1;
-			}
-			if (facing == 'W' && command.charAt(i) == 'd'){
+			}else if (facing == 'W' && command.charAt(i) == 'd'){
 				xLocation = xLocation + 1;
-			}
-			if (facing == 'W' && command.charAt(i) == 'l'){
+			}else if (facing == 'W' && command.charAt(i) == 'l'){
 				facing = 'S';
-			}
-			if (facing == 'W' && command.charAt(i) == 'r'){
+			}else if (facing == 'W' && command.charAt(i) == 'r'){
 				facing = 'N';
 			}
 			
-			if (facing == 'E' && command.charAt(i) == 'f'){
+			else if (facing == 'E' && command.charAt(i) == 'f'){
 				xLocation = xLocation + 1;
-			}
-			if (facing == 'E' && command.charAt(i) == 'd'){
+			}else if (facing == 'E' && command.charAt(i) == 'd'){
 				xLocation = xLocation - 1;
-			}
-			if (facing == 'E' && command.charAt(i) == 'l'){
+			}else if (facing == 'E' && command.charAt(i) == 'l'){
 				facing = 'N';
-			}
-			if (facing == 'E' && command.charAt(i) == 'r'){
+			}else if (facing == 'E' && command.charAt(i) == 'r'){
 				facing = 'S';
 			}
 		}
