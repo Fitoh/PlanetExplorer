@@ -13,7 +13,7 @@ public class PlanetExplorer {
 	private char facing = 'N';
 	private String commandReturn;
 	private String obstacleList;
-	private String knownObstacles;
+	private String knownObstacles = "";
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	
