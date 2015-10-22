@@ -29,7 +29,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testCommandwihtObstacles() {
+	public void testCommandwihtObstaclesWhenOneIsFound() {
 		// arrange
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)");
 		
@@ -37,6 +37,19 @@ public class TestPlanetExplorer {
 		String testLocation = explorer.executeCommand("fffffrfffff");
 		
 		// assert should be "(5,4,E)(5,5)"
+		assertEquals("5,4,N",testLocation);
+	}
+	
+	@Test
+	public void testCommandwihtObstaclesWhenTwoIsFound() {
+		// arrange
+		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)");
+		
+		//act
+		//finds first
+		String testLocation = explorer.executeCommand("fffffrfffff");
+		
+		// assert should be "(5,4,E)(5,5)(7,8)"
 		assertEquals("5,4,N",testLocation);
 	}
 	

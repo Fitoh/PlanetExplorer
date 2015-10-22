@@ -218,3 +218,10 @@ EditAction 1445509705150 PlanetExplorer.java 3590 4 8 0
 UnitTestCaseAction 1445509707324 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445509707325 TestPlanetExplorer FAIL
 EditAction 1445509857297 PlanetExplorer.java 5375 4 8 0
+UnitTestCaseAction 1445509859495 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445509859495 TestPlanetExplorer FAIL
+RefactoringAction 1445509890709 TestPlanetExplorer.java RENAME testCommandwihtObstacles()=>void testCommandwihtObstaclesW() METHOD
+RefactoringAction 1445509894221 TestPlanetExplorer.java RENAME testCommandwihtObstaclesW()=>void testCommandwihtObstaclesWhenOneIsFound() METHOD
+RefactoringAction 1445509898736 TestPlanetExplorer.java ADD void testCommandwihtObstaclesWhenOneIsFound()/2 METHOD
+RefactoringAction 1445509904745 TestPlanetExplorer.java RENAME testCommandwihtObstaclesWhenOneIsFound()/2=>void testCommandwihtObstaclesWhenTwoIsFound() METHOD
+EditAction 1445509951505 TestPlanetExplorer.java 1361 4 11 4
